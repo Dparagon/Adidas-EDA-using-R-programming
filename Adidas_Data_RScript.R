@@ -56,7 +56,8 @@ View(Adidas_clean_data)
 
 #Saving/Exporting cleaned data
 getwd()
-write.csv(Adidas_clean_data,"Adidas_clean_data.csv")
+write_csv(Adidas_clean_data,"Adidas_clean_data.csv")
+
 
 
 #  DATA ANALYSIS and VISUALIZATION
