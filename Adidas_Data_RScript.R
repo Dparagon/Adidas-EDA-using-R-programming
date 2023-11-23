@@ -144,7 +144,6 @@ print(method_sales)
   legend("topleft",method_sales$sales_method,
          fill = rainbow(length(method_sales$sales_method))) 
 
-ggsave("Adidas total sales by sales method.png")
 
 #-6 Monthly Sales Trend by Retailers
 sales_trend <- Adidas_clean_data %>% 
